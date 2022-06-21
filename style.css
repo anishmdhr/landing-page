@@ -65,7 +65,7 @@ h2 {
     align-items: center;
 }
 
-img {
+.header img {
     width: 500px;
     height: 210px;
     background-color: gray;
@@ -96,4 +96,46 @@ button {
     font-size: small;
     justify-content: center;
     height: 40px;
+}
+
+.section {
+    height: 400px;
+}
+
+.section .container {
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+
+h3 {
+    font-size: 36px;
+    margin: 40px;
+}
+
+.content {
+    width: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 12px;
+    margin-bottom: 8px;
 }
