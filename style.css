@@ -46,7 +46,7 @@ body {
     font-size: 18px;
     text-decoration: none;
     color: #ffffff;
-    margin-left: 16px;
+    margin-left: 24px;
 }
 
 h2 {
@@ -87,15 +87,9 @@ button {
     font-weight: bold;
     font-size: 16px;
     padding: 8px 28px;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: none;
     border: 0;
-}
-
-.footer .container {
-    font-size: small;
-    justify-content: center;
-    height: 40px;
 }
 
 .section {
@@ -131,11 +125,69 @@ h3 {
     text-align: center;
 }
 
-.image{
+.image {
     width: 150px;
     height: 150px;
     border-color: #3882f6;
     border-style: solid;
     border-radius: 12px;
     margin-bottom: 8px;
+}
+
+.quote {
+    height: 400px;
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    width: 800px;
+    color:#1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.quote .container .author {
+    margin-top: 10px;
+    padding-left: 400px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.call-to-action{
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action .container{
+    width: 1000px;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    height: 140px;
+    padding:0;
+    border-radius: 8px;
+}
+
+.action{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.second{
+    border: 2px solid #ffffff;
+}
+
+.footer .container {
+    font-size:medium;
+    justify-content: center;
+    height: 80px;
 }
