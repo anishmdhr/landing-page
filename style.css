@@ -93,6 +93,20 @@ button {
     border: 0;
 }
 
+
+.credit {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+}
+
+
+.credit p a {
+    text-decoration: none;
+    color:#3882f6;
+}
+
 .section {
     height: 400px;
 }
@@ -142,7 +156,7 @@ h3 {
 
 .quote .container {
     width: 900px;
-    color:#1f2937;
+    color: #1f2937;
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
@@ -160,35 +174,35 @@ h3 {
     font-weight: 900;
 }
 
-.call-to-action{
-    height:300px;
+.call-to-action {
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.call-to-action .container{
+.call-to-action .container {
     width: 1100px;
     background-color: #3882f6;
     justify-content: space-around;
     align-items: center;
     color: #ffffff;
     height: 140px;
-    padding:0;
+    padding: 0;
     border-radius: 8px;
 }
 
-.action{
+.action {
     font-size: 20px;
     font-weight: 900;
 }
 
-.second{
+.second {
     border: 2px solid #ffffff;
 }
 
 .footer .container {
-    font-size:medium;
+    font-size: medium;
     justify-content: center;
     height: 80px;
 }
