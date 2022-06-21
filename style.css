@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-    max-width: 1050px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 30px;
     display: flex;
@@ -106,7 +106,7 @@ button {
 .information {
     display: flex;
     justify-content: center;
-    gap: 45px;
+    gap: 55px;
 }
 
 
@@ -141,7 +141,7 @@ h3 {
 }
 
 .quote .container {
-    width: 800px;
+    width: 900px;
     color:#1f2937;
     font-size: 36px;
     font-style: italic;
@@ -168,7 +168,7 @@ h3 {
 }
 
 .call-to-action .container{
-    width: 1000px;
+    width: 1100px;
     background-color: #3882f6;
     justify-content: space-around;
     align-items: center;
