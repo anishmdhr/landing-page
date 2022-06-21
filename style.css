@@ -69,6 +69,7 @@ h2 {
     width: 500px;
     height: 210px;
     background-color: gray;
+    object-fit: cover;
 }
 
 .container .intro {
