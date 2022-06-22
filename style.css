@@ -162,16 +162,17 @@ h3 {
     font-weight: 100;
     flex-direction: column;
     justify-content: center;
-
 }
 
 
 .quote .container .author {
+    align-self: flex-end;
     margin-top: 10px;
-    padding-left: 400px;
+    padding-right: 24px;
     font-size: 20px;
     font-style: normal;
     font-weight: 900;
+    
 }
 
 .call-to-action {
